@@ -42,18 +42,18 @@ class Question{
     }
 
 }
-const firstQuestion = new Question("How many planets do we have?",[1,2,3,4,5,6,7,8],8)
+const firstQuestion = new Question("How many books  do we have  Africa?",[1,2,3,4,5,6,7,8],8)
 console.log({firstQuestion});
 console.log(firstQuestion.text);
 console.log(firstQuestion.options);
 console.log(firstQuestion.correctAnswer);
 firstQuestion.checkAnswer(3)
 firstQuestion.checkAnswer(8)
-const secondQuestion = new Question("How many countries are in Kenya?",[47,65,23,12],47)
+const secondQuestion = new Question("How many countries are there in Africa?",[47,65,23,12],47)
 console.log({secondQuestion});
-const thirdQuestion = new Question("What is the capital city of Kenya?",["Nairobi","Mombasa","Kisumu","Nakuru"],"Nairobi")
+const thirdQuestion = new Question("What is the capital city of  Uganda?",["","Mombasa","Kisumu","Nakuru"],"Nairobi")
 console.log({thirdQuestion});
-const fourthQuestion = new Question("Who is the president of Kenya",["Uhuru","Raila","Mutahi","Obama"],"Uhuru")
+const fourthQuestion = new Question("Who is the Governor of Narok",["Ledama","Konchella","Naserian","Obama"],"Odhiambo")
 console.log({fourthQuestion});
 const lastQuestion = [fourthQuestion]
 console.log(lastQuestion);
