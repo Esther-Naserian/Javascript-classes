@@ -11,6 +11,8 @@ class Car{
 }
 const car = new Car("toyota","camry",2020,"The car is available for rent")
 console.log(car.toggleAvailability());
+
+
 class Rental extends Car{
     constructor(make,model,year,isAvailable,rentalName,rentalStartDate,rentalEndDate){
         super(make,model,year,isAvailable)
